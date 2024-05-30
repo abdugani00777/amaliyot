@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.food_title {
+  text-align: center;
+}
+
+.food-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.food-card {
+  width: 361px;
+}
+
+.food-card h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.food-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-title button {
+  background-color: transparent;
+  border: none;
+}
+.span {
+  color: orangered;
+}
+.food-parent +;
